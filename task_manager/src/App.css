@@ -1,0 +1,60 @@
+.App {
+  @apply min-h-screen
+}
+
+.container {
+  @apply flex min-h-full flex-col justify-center px-6 py-2 items-center
+}
+
+.Header {
+  @apply p-2 flex flex-row justify-between px-5 text-white bg-primary
+}
+
+.nav-header {
+  @apply flex justify-center items-center
+}
+
+.nav-item {
+  @apply m-2 text-white no-underline text-lg
+}
+
+input, textarea {
+  @apply block w-full border border-gray-700 py-1.5 w-11/12 text-gray-900 shadow-sm placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary focus:border-primary sm:text-sm sm:leading-6 p-2 m-2 w-11/12
+}
+
+.btn {
+  @apply w-fit justify-center px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 border-none
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-light focus-visible:outline-indigo-600
+}
+
+.btn-secondary {
+  @apply bg-secondary hover:bg-secondary-light focus-visible:outline-secondary
+}
+
+.btn-danger {
+  @apply bg-danger hover:bg-danger-light focus-visible:outline-danger
+}
+
+.icon-btn {
+  @apply bg-transparent border-none
+}
+
+.errorMessage {
+  @apply text-red-500 text-sm ml-2
+}
+
+label {
+  @apply p-2 m-2
+}
+
+.required::after {
+  content: ' *';
+  color: red;
+}
+
+.card {
+  @apply bg-white shadow-md p-2 m-2
+}

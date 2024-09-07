@@ -1,0 +1,17 @@
+.custom-input {
+    @apply !mt-2;
+}
+
+.custom-input input {
+    @apply py-2 pl-2 text-sm text-gray-700;
+}
+
+.custom-input label {
+    @apply text-sm /*absolute p-0 m-0 ml-2 top-0 left-0 py-2 pl-2 text-sm text-gray-500 transition-all duration-300;*/
+}
+
+.custom-input .error-message {
+    @apply ml-3 text-red-500 text-xs;
+}
+
+
