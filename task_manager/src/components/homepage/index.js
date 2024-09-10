@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import { Spinner } from "../../utils/icons";
 import TaskView from "./TaskView";
 import { useDispatch, useSelector } from "react-redux";
@@ -19,14 +19,10 @@ const HomePage = () => {
     const [isDeleteOpen, setIsDeleteOpen] = useState(false);
     const [selectedTaskId, setSelectedTaskId] = useState(null);
     const [isDeleteLoading, setIsDeleteLoading] = useState(false);
-    const [loadedTasks, setLoadedTasks] = useState(false)
 
     useEffect(() => {
-        if (!loadedTasks) {
-            setLoadedTasks(true);
-            dispatch(fetchTasksApi());
-        }
-    }, [loadedTasks, dispatch])
+        dispatch(fetchTasksApi());
+    }, [dispatch])
 
 
     const confirmTaskDelete = (taskId) => {
