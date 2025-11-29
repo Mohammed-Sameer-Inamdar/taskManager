@@ -1567,3 +1567,15 @@
 20240910	16:22:48	OPTIONS	http://localhost:3000	/tasks
 20240910	16:22:48	GET	http://localhost:3000	/tasks
 20240910	16:22:48	GET	http://localhost:3000	/tasks
+20250909	22:50:25	OPTIONS	http://localhost:3000	/login
+20250909	22:50:25	POST	http://localhost:3000	/login
+20250909	22:50:45	OPTIONS	http://localhost:3000	/signup
+20250909	22:50:45	POST	http://localhost:3000	/signup
+20250909	22:50:45	OPTIONS	http://localhost:3000	/tasks
+20250909	22:50:45	GET	http://localhost:3000	/tasks
+20250909	22:50:59	OPTIONS	http://localhost:3000	/task
+20250909	22:50:59	POST	http://localhost:3000	/task
+20250909	22:51:00	OPTIONS	http://localhost:3000	/tasks
+20250909	22:51:00	GET	http://localhost:3000	/tasks
+20250909	22:51:01	OPTIONS	http://localhost:3000	/task/68c061fc3b3734cd77e41047
+20250909	22:51:01	POST	http://localhost:3000	/task/68c061fc3b3734cd77e41047

@@ -25,3 +25,4 @@ yarn-debug.log*
 yarn-error.log*
 
 !.gitkeep
+/task_manager_express/logs/reqLog.txt
